@@ -1,0 +1,25 @@
+body {
+  background-color:rgb(130,127,167);
+}
+.nav-link {
+  font-size: 25px;
+}
+.navbar-brand {
+  font-size: 25px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.JT{
+  text-align: center;
+}
+.flex-container1 {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-around;
+}
+.container {
+  padding-bottom: 100px;
+}

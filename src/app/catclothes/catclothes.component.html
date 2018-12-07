@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1> Cat Clothes </h1>
+    
+    
+
+<hr />
+
+<ul style="list-style-type:none">
+<li *ngFor="let clothes of clothes$ | async">
+  <h2>{{ clothes.name }}</h2>
+  <img src="{{clothes.picture}}" style="width:200px"><br/>
+  ONLY ${{clothes.price}}<br/>
+  Product Description:<br/>
+  <i>{{clothes.description}} </i>
+    <hr/>
+</li>
+</ul>
+
+
+   
+  </div>
